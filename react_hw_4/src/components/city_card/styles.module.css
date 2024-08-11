@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.city_title {
+  margin-bottom: 16px;
+  padding: 8px 0;
+  width: 100%;
+  border: 1px solid crimson;
+  border-radius: 16px;
+  text-align: center;
+  text-transform: uppercase;
+  color: crimson;
+}
+
+.city_img img {
+  width: 100%;
+  border-radius: 16px;
+}
+
+.city_description {
+  text-align: center;
+  font-weight: 700;
+}
+
+.facts_container {
+  margin-top: 16px;
+  padding: 16px;
+  border: 1px solid crimson;
+  border-radius: 16px;
+  list-style-type: circle;
+}
+
+.city_facts {
+  margin-left: 8px;
+  margin-bottom: 8px;
+  font-size: 13px;
+  font-style: italic;
+}

@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.form_wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 32px;
+}
+
+.select_field {
+  min-width: 50%;
+  min-height: 32px;
+  border: 1px solid grey;
+  border-radius: 8px;
+}
+
+.select_field:focus {
+  border: 1px solid grey;
+}
+
+.select_field option {
+  border: none;
+}
