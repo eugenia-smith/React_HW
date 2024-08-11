@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.stars {
+  width: 100%;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 500px;
+}
+
+.button {
+  margin-right: 24px;
+
+  width: 100px;
+  height: 32px;
+  border: none;
+  border-radius: 8px;
+
+  background-color: crimson;
+  color: antiquewhite;
+  text-transform: uppercase;
+}

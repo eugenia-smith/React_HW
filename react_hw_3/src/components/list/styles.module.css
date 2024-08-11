@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.list {
+  list-style-type: none;
+  margin: 0 auto;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+
+  max-width: 200px;
+}
+
+.personal_card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  width: 100%;
+}
+
+.remove_button {
+  background-color: tomato;
+  border: none;
+  border-radius: 8px;
+  height: 32px;
+  width: 50px;
+
+  color: bisque;
+  font-size: 14px;
+}
