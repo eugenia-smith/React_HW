@@ -1,0 +1,16 @@
+$backgroundColor: #0c0417;
+$elementColor: #1ed760;
+$interactionColor: #1181f1;
+
+@mixin adaptive_font-size($pcSize, $mobSize) {
+  $difference: $pcSize - $mobSize;
+  $mobIndex: $difference + $difference * 0.7;
+
+  @media (max-width: 767px) {
+    font-size: calc(#{$mobSize + px} + #{$mobIndex} * ((100vw - 393px) / 1520));
+  }
+
+  @media (min-width: 768px) {
+    font-size: calc(#{$mobSize + px} + #{$difference} * (100vw / 1520));
+  }
+}
