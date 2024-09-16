@@ -17,7 +17,7 @@ function Article() {
       <h3 className={styles.article_heading}>{article.title}</h3>
       <p className={styles.article_contents}>{article.body}</p>
       <button type="button" className={styles.back_button} onClick={goBack}>
-        Back
+        <span>Back</span>
       </button>
     </article>
   );

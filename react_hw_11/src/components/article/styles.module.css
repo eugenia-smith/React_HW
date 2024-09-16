@@ -1,0 +1,60 @@
+.article_item {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  align-items: flex-end;
+
+  margin: 64px auto;
+  width: 80vw;
+}
+
+.article_heading {
+  align-self: flex-start;
+  font-family: "Gayathri", sans-serif;
+  font-size: 32px;
+}
+
+.article_contents {
+  width: 75%;
+  font-family: "Ledger", serif;
+  font-size: 20px;
+}
+
+.back_button {
+  padding: 16px;
+  min-width: 75px;
+  border: 1px solid #343434;
+  border-radius: 8px;
+
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  text-decoration: none;
+  text-align: center;
+  color: #343434;
+
+  background-color: transparent;
+
+  cursor: pointer;
+}
+
+.back_button:hover {
+  font-weight: 700;
+  border: 1.5px solid crimson;
+  background-image: repeating-linear-gradient(
+    to bottom right,
+    transparent 0 5%,
+    crimson 5% 7%
+  );
+}
+
+.back_button:hover span {
+  padding: 6px;
+
+  border-radius: 8px;
+
+  background-color: crimson;
+  color: antiquewhite;
+}
