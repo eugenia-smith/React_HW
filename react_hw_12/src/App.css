@@ -1,3 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+
+  box-sizing: border-box;
+}
+
 .App {
+  text-align: center;
+}
+
+.app_container {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+
+  margin: 64px auto;
+
+  max-width: 300px;
+}
+
+.app_input {
+  padding: 8px;
+
+  height: 40px;
+  border: 1px solid rgb(61, 61, 61);
+  border-radius: 16px;
+
+  background-color: rgb(238, 238, 238);
+}
+
+.app_heading {
+  font-size: 24px;
   text-align: center;
 }

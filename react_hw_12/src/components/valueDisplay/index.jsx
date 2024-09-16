@@ -4,7 +4,7 @@ import { useRef, useEffect } from "react";
 function ValueDisplay({ value }) {
   const prevRef = useRef(null);
 
-  // useEffect(() => {}, [value]);
+  // useEffect(() => {}, []);
 
   return (
     <>
