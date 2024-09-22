@@ -1,0 +1,24 @@
+.user_card {
+  margin: 24px auto;
+  padding: 16px;
+
+  width: 30vw;
+  border: 2px solid teal;
+  border-radius: 16px;
+}
+
+.user_name {
+  margin-bottom: 24px;
+
+  text-align: center;
+}
+
+.user_status {
+  padding: 8px;
+
+  border-radius: 8px;
+
+  background-color: teal;
+
+  color: aliceblue;
+}
