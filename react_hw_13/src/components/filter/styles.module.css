@@ -1,0 +1,16 @@
+.filter_label {
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.filter_label input {
+  height: 24px;
+  min-width: 250px;
+
+  padding: 16px;
+
+  border: 2px solid #cdcdcd;
+  border-radius: 16px;
+
+  background-color: rgb(255, 244, 244);
+}
