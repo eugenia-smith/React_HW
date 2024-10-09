@@ -1,0 +1,35 @@
+.survey_form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+
+  margin: 0 auto;
+  width: 50vw;
+}
+
+.survey_form label {
+  margin-left: 16px;
+}
+
+.survey_form input {
+  margin-right: 8px;
+}
+
+.submit_btn {
+  align-self: center;
+
+  margin-top: 32px;
+  padding: 8px;
+
+  width: 30%;
+  border: none;
+  border-radius: 8px;
+
+  background-color: crimson;
+
+  color: bisque;
+  text-transform: uppercase;
+  font-weight: 700;
+
+  cursor: pointer;
+}
